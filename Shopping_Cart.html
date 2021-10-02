@@ -1,16 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Main</title>
     <script src="https://kit.fontawesome.com/d9ed8d167b.js" crossorigin="anonymous"></script>
-    <script async src="scripts/script-OOP.js"></script>
+    <title>Shopping Cart</title>
 </head>
-
 <body>
 
     <header class="header">
@@ -49,18 +46,10 @@
                     </div>
                 </details>
                 <input type="text" class="search_reqests" placeholder="Search for Item...">
-                <a class="icon_searchform"><i class="fas fa-search"></i></a>
+                <button type="submit" class="icon_searchform"><i class="fas fa-search"></i></button>
             </form>
-            <a href="Shopping-Cart.html" class="basket"><img src="img/basket.svg" alt="icon basket"></a>
-            <details class="details-my-account">
-                <summary class="button my-account">My account</summary>
-                <div class="my-account-menu">
-                    <div class="cost">
-                    </div>
-                    <a href="checkout.html" class="my-acc-button">Checkout</a>
-                    <a href="shopping-cart.html" class="my-acc-button">Go to cart</a>
-                </div>
-            </details>
+            <a href="Shopping_Cart.html" class="basket"><img src="img/basket.svg" alt="icon basket"></a>
+            <a href="#" class="lk">My&nbsp;Account<img src="img/down_arrow_white.png" alt="down arrow white"></a>
         </div>
     </header>
 
@@ -415,98 +404,177 @@
         </div>
     </nav>
 
-    <section class="top_slider">
-        <div class="container slider_top">
-            <div class="header_block_main_first_section">
-                <h1>
-                    <span class="h1_main_first_section">THE BRAND</span>
-                    <span class="h1_main_first_section mini">OF LUXERIOUS<span> FASHION</span></span>
-                </h1>
-            </div>
+    <section class="heading_breadcrums">
+        <div class="container nav__single_page">
+            <h1 class="product_name">New Arrivals</h1>
+            <nav class="breadcrums">
+                <ul class="breadcrums_list">
+                    <li><a href="index.html">Home</a></li>/
+                    <li><a href="single-page.html">Men</a></li>/
+                    <li><a href="single-page.html"><span>New Arrivals</span></a></li>
+                </ul>
+            </nav>
         </div>
     </section>
 
-    <section class="category_icon">
-        <div class="container category">
-            <div class="column_first">
-                <a href="catalog.html" class="icon_for_men">
-                    <div class="desc_category">
-                        <span class="desc">HOT DEAL</span>
-                        <span class="desc_pink">FOR MEN</span>
-                    </div>
-                </a>
-                <a href="catalog.html" class="icon_accesories">
-                    <div class="desc_category">
-                        <span class="desc">LUXIROUS & trendy</span>
-                        <span class="desc_pink">ACCESORIES</span>
-                    </div>
-                </a>
-            </div>
-            <div class="column_second">
-                <a href="catalog.html" class="icon_women">
-                    <div class="desc_category">
-                        <span class="desc">30% offer</span>
-                        <span class="desc_pink">women</span>
-                    </div>
-                </a>
-                <a href="catalog.html" class="icon_for_kids">
-                    <div class="desc_category">
-                        <span class="desc">new arrivals</span>
-                        <span class="desc_pink">FOR kids</span>
-                    </div>
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <section class="featured_items">
-        <div class="container products">
-            <header class="heading_featured_items">
-                <h3 class="section_product_heading">Featured Items</h3>
-                <p>Shop for items based on what we featured in this week</p>
-            </header>
-            <div class="products_block">
-            </div>
-            <div class="btn-cont">
-                <a class="product_button" href="catalog.html">Browse All Product<img src="img/right_arrow.png"
-                        alt="right arrow"></a>
-            </div>
-        </div>
-    </section>
-
-    <section class="banner_advantage">
-        <div class="container sale">
-            <div class="background_banner">
-                <h3 class="sale-heading">30%
-                    <span class="pink"> offer</span>
-                    <span class="br_min">for women</span>
-                </h3>
-            </div>
-            <div class="advantage">
-                <div class="delivery">
-                    <h4>Free Delivery</h4>
-                    <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive
-                        models.</p>
+    <section class="item-cart">
+        <div class="container">
+            <div class="product-details">
+                <div class="first-column product-details__first-column">
+                    <span class="product_desc first-column__product_desc">Product Details</span>
                 </div>
-                <div class="discount">
-                    <h4>Sales & discount</h4>
-                    <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive
-                        models.</p>
-                </div>
-                <div class="quality">
-                    <h4>Quality assurance</h4>
-                    <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive
-                        models.</p>
+                <div class="second-column product-details__second-column">
+                    <div class="cell-cart">
+                        <span class="product_desc">unite Price</span>
+                    </div>
+                    <div class="cell-cart">
+                        <span class="product_desc">Quantity</span>
+                    </div>
+                    <div class="cell-cart">
+                        <span class="product_desc">shipping</span>
+                    </div>
+                    <div class="cell-cart">
+                        <span class="product_desc">Subtotal</span>
+                    </div>
+                    <div class="cell-cart">
+                        <span class="product_desc">ACTION</span>
+                    </div>
                 </div>
             </div>
+            <product-box-cart>
+                <div class="string-purchase">
+                    <a href="single-page.html">
+                        <div class="first-column string-purchase__first-column">
+                            <img src="img/shopping_n1.jpg" alt="icon product 1">
+                            <div class="subtleties-box">
+                                <span class="product_desc subtleties-box__product-desc">Mango People T-shirt</span>
+                                <span class="subtleties">Color:
+                                    <span>Red</span>
+                                </span>
+                                <span class="subtleties">Size:
+                                    <span>Xll</span>
+                                </span>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="second-column second-column_around">
+                        <div class="cell-cart second-column_around__cell-cart">$150</div>
+                        <div class="cell-cart second-column_around__cell-cart"><input type="number" min="1" class="coint_product second-column__coint_product" placeholder="2"></div>
+                        <div class="cell-cart second-column_around__cell-cart">FREE</div>
+                        <div class="cell-cart second-column_around__cell-cart">$300</div>
+                        <div class="cell-cart second-column_around__cell-cart"><i class="fas fa-times-circle"></i></div>
+                    </div>
+                </div>
+                <div class="string-purchase">
+                    <a href="single-page.html">
+                        <div class="first-column string-purchase__first-column">
+                            <img src="img/shopping_n2.jpg" alt="icon product 1">
+                            <div class="subtleties-box">
+                                <span class="product_desc subtleties-box__product-desc">Mango People T-shirt</span>
+                                <span class="subtleties">Color:
+                                    <span>Red</span>
+                                </span>
+                                <span class="subtleties">Size:
+                                    <span>Xll</span>
+                                </span>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="second-column second-column_around">
+                        <div class="cell-cart second-column_around__cell-cart">$150</div>
+                        <div class="cell-cart second-column_around__cell-cart">
+                            <input type="number" min="1" class="coint_product second-column__coint_product" placeholder="2">
+                        </div>
+                        <div class="cell-cart second-column_around__cell-cart">FREE</div>
+                        <div class="cell-cart second-column_around__cell-cart">$300</div>
+                        <div class="cell-cart second-column_around__cell-cart"><i class="fas fa-times-circle"></i></div>
+                    </div>
+                </div>
+                <div class="string-purchase">
+                    <a href="single-page.html">
+                        <div class="first-column string-purchase__first-column">
+                        <img src="img/shopping_n3.jpg" alt="icon product 1">
+                        <div class="subtleties-box">
+                            <span class="product_desc subtleties-box__product-desc">Mango People T-shirt</span>
+                            <span class="subtleties">Color:
+                                <span>Red</span>
+                            </span>
+                            <span class="subtleties">Size:
+                                <span>Xll</span>
+                            </span>
+                        </div>
+                    </div>
+                    </a>
+                    <div class="second-column second-column_around">
+                        <div class="cell-cart second-column_around__cell-cart">$150</div>
+                        <div class="cell-cart second-column_around__cell-cart"><input type="number" min="1" class="coint_product second-column__coint_product" placeholder="2"></div>
+                        <div class="cell-cart second-column_around__cell-cart">FREE</div>
+                        <div class="cell-cart second-column_around__cell-cart">$300</div>
+                        <div class="cell-cart second-column_around__cell-cart"><i class="fas fa-times-circle"></i></div>
+                    </div>
+                </div>
+            </product-box-cart>
+            <div class="total">
+                <div class="buttons-block">
+                    <a href="#">cLEAR SHOPPING CART</a>
+                    <a href="product.html">cONTINUE sHOPPING</a>
+                </div>
+                <div class="total-down-block">
+                    <form action="#" class="shipping-adress">
+                        <h4 class="h4-shopping-cart">Shipping Adress</h4>
+                        <details class="browse_choise browse_choise_brnone">
+                            <summary class="browse browse_choise_shopping-cart">Bangladesh</summary>
+                            <div class="mega-box details mega-box_shopping_cart">
+                                <div class="mega-item_shopcart">
+                                    <div>
+                                        <p>Abhasia</p>
+                                    </div>
+                                    <div>
+                                        <p>Turkmenia</p>
+                                    </div>
+                                    <div>
+                                        <p>Thailand</p>
+                                    </div>
+                                    <div>
+                                        <p>Phillipiny</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </details>
+                        <input type="text" class="shopping-cart-from" placeholder="State"><br>
+                        <input type="text" class="shopping-cart-from" placeholder="Postcode / Zip"><br>
+                        <button class="button-cart-from">get a quote</button>
+                    </form>
+                    <form action="#" class="coupon">
+                        <h4 class="h4-shopping-cart">coupon  discount</h4>
+                        <p>Enter your coupon code if you have one</p>
+                        <input type="text" class="shopping-cart-from" placeholder="State"><br>
+                        <button class="button-cart-from">Apply coupon</button>
+                    </form>
+                    <div class="total-count-cart">
+                        <div class="total-price-block">
+                            <div class="sub-total">
+                                <div class="txt-price">sub total</div>
+                                <div class="dgt-price">$900</div>
+                            </div>
+                            <div class="grand-total">
+                                <div class="txt-price"><h4 class="h4-shopping-cart">grand total</h4></div>
+                                <div class="dgt-price"><h4 class="h4-shopping-cart_last">$900</h4></div>
+                            </div>
+                            <div class="hr"></div>
+                            <a href="checkout.html" class="proceed">proceed to checkout</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
-    <section class="subcribe">
+    <section class="subcribe single_page">
         <div class="container subcribes">
             <div class="review">
                 <figure class="review_slider">
-                    <img class="icon_review" src="img/icon_review.png" alt="icon review">
+                    <img class="icon_review" src="img/icon_review.png">
                     <div class="meta_review">
                         <p class="text_review">“Vestibulum quis porttitor dui! Quisque viverra nunc mi,
                             a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”</p>
@@ -525,7 +593,7 @@
             <div class="border"></div>
             <div class="contacts_subcribe">
                 <h3 class="subcribe_heading"><span>Subscribe</span><br>FOR OUR NEWLETTER AND PROMOTION</h3>
-                <form action="#" class="subribe_form">
+                <form action="" class="subribe_form">
                     <input type="text" class="email_subcribe" placeholder="Enter Your Email">
                     <button type="submit">Subscribe</button>
                 </form>
@@ -599,7 +667,6 @@
             </nav>
         </div>
     </footer>
-
+    coint_product
 </body>
-
 </html>
