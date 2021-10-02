@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d9ed8d167b.js" crossorigin="anonymous"></script>
+    <title>Checkout</title>
+</head>
+
+<body>
+
+    <header class="header">
+    <div class="container header">
+        <a href="index.html" class="logo">
+            <img src="img/logo.png" alt="logo">
+            <span>BRAN<span class="D">D</span></span>
+        </a>
+        <form class="search">
+            <details class="browse_choise">
+                <summary class="browse">Browse</summary>
+                <div class="mega-box details">
+                    <div class="mega-item">
+                        <h3 class="item-heading">Women</h3>
+                        <ul>
+                            <li class="mega-list"><a href="#" class="mega-link">Dresses</a></li>
+                            <li class="mega-list"><a href="#" class="mega-link">Tops</a></li>
+                            <li class="mega-list"><a href="#" class="mega-link">Sweaters/Knits</a></li>
+                            <li class="mega-list"><a href="#" class="mega-link">Jackets/Coats</a></li>
+                            <li class="mega-list"><a href="#" class="mega-link">Blazers</a></li>
+                            <li class="mega-list"><a href="#" class="mega-link">Denim</a></li>
+                            <li class="mega-list"><a href="#" class="mega-link">Leggings/Pants</a></li>
+                            <li class="mega-list"><a href="#" class="mega-link">Skirts/Shorts</a></li>
+                            <li class="mega-list"><a href="#" class="mega-link">Accessories</a></li>
+                        </ul>
+                        <h3 class="item-heading block">Men</h3>
+                        <ul>
+                            <li class="mega-list"><a href="#" class="mega-link">Tees/Tank tops</a></li>
+                            <li class="mega-list"><a href="#" class="mega-link">Shirts/Polos</a></li>
+                            <li class="mega-list"><a href="#" class="mega-link">Sweaters</a></li>
+                            <li class="mega-list"><a href="#" class="mega-link">Sweatshirts/Hoodies</a></li>
+                            <li class="mega-list"><a href="#" class="mega-link">Blazers</a></li>
+                            <li class="mega-list"><a href="#" class="mega-link">Jackets/vests</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </details>
+            <input type="text" class="search_reqests" placeholder="Search for Item...">
+            <button type="submit" class="icon_searchform"><i class="fas fa-search"></i></button>
+        </form>
+        <a href="Shopping-Cart.html" class="basket"><img src="img/basket.svg" alt="icon basket"></a>
+        <details class="details-my-account">
+            <summary class="button my-account">My account</summary>
+            <div class="my-account-menu">
+                <a href="single-page.html" class="basket-hover-menu"></a>
+                <figure class="my-account-item">
+                    <img src="img/basket-icon1.jpg" alt="photo">
+                    <div class="my-acc-right">
+                        <div class="my-acc-info">
+                            <h3 class="my-acc-head">Rebox Zane</h3>
+                            <div class="review_stars stars-height" >
+                                <input id="star-5" type="radio" name="stars"/>
+                                <label title="Отлично" for="star-5">
+                                    <i class="fas fa-star"></i>
+                                </label>
+                                <input id="star-4" type="radio" name="stars"/>
+                                <label title="Хорошо" for="star-4">
+                                    <i class="fas fa-star"></i>
+                                </label>
+                                <input id="star-3" type="radio" name="stars"  />
+                                <label title="Нормально" for="star-3">
+                                    <i class="fas fa-star"></i>
+                                </label>
+                                <input id="star-2" type="radio" name="stars"/>
+                                <label title="Плохо" for="star-2">
+                                    <i class="fas fa-star"></i>
+                                </label>
+                                <input id="star-1" type="radio" name="stars"/>
+                                <label title="Ужасно" for="star-1">
+                                    <i class="fas fa-star"></i>
+                                </label>
+                            </div>
+                            <div class="my-acc-text">1 <span class="text-x">x</span> $250</div>
+                        </div>
+                        <a class="fas fa-times-circle" href="#"></a>
+                    </div>
+                </figure>
+                <hr class="my-acc-hr">
+                <a href="single-page.html" class="basket-hover-menu"></a>
+                <figure class="my-account-item">
+                    <img src="img/basket-icon2.jpg" alt="photo">
+                    <div class="my-acc-right">
+                        <div class="my-acc-info">
+                            <h3 class="my-acc-head">Rebox Zane</h3>
+                            <div class="review_stars stars-height" >
+                                <input id="stars-5" type="radio" name="stars"/>
+                                <label title="Отлично" for="star-5">
+                                    <i class="fas fa-star"></i>
+                                </label>
+                                <input id="stars-4" type="radio" name="stars"/>
+                                <label title="Хорошо" for="star-4">
+                                    <i class="fas fa-star"></i>
+                                </label>
+                                <input id="stars-3" type="radio" name="stars"  />
+                                <label title="Нормально" for="star-3">
+                                    <i class="fas fa-star"></i>
+                                </label>
+                                <input id="stars-2" type="radio" name="stars"/>
+                                <label title="Плохо" for="star-2">
+                                    <i class="fas fa-star"></i>
+                                </label>
+                                <input id="stars-1" type="radio" name="stars"/>
+                                <label title="Ужасно" for="star-1">
+                                    <i class="fas fa-star"></i>
+                                </label>
+                            </div>
+                            <div class="my-acc-text">1 <span class="text-x">x</span> $250</div>
+                        </div>
+                        <a class="fas fa-times-circle" href="#"></a>
+                    </div>
+                </figure>
+                <hr class="my-acc-hr">
+                <div class="cost">
+                    <p>TOTAL</p>
+                    <p>$500.00</p>
+                </div>
+                <a href="checkout.html" class="my-acc-button">Checkout</a>
+                <a href="shopping-cart.html" class="my-acc-button">Go to cart</a>
+            </div>
+        </details>
+    </div>
+</header>
+
+    <nav class="header_link">
+        <div class="container_nav_link">
+            <ul class="nav_link_list">
+                <li class="menu-list"><a class="menu-link" href="#">Home</a>
+                    <div class="mega-box">
+                        <div class="mega-item">
+                            <h3 class="item-heading">Women</h3>
+                            <ul>
+                                <li class="mega-list"><a href="#" class="mega-link">Dresses</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Tops</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Sweaters/Knits</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Jackets/Coats</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Blazers</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Denim</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Leggings/Pants</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Skirts/Shorts</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Accessories</a></li>
+                            </ul>
+                        </div>
+                        <div class="mega-item">
+                            <h3 class="item-heading">Women</h3>
+                            <ul>
+                                <li class="mega-list"><a href="#" class="mega-link">Dresses</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Tops</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Sweaters/Knits</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Jackets/Coats</a></li>
+                            </ul>
+                            <h3 class="item-heading block">Women</h3>
+                            <ul>
+                                <li class="mega-list"><a href="#" class="mega-link">Dresses</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Tops</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Sweaters/Knits</a></li>
+                            </ul>
+                        </div>
+                        <div class="mega-item">
+                            <h3 class="item-heading">Women</h3>
+                            <ul>
+                                <li class="mega-list"><a href="#" class="mega-link">Dresses</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Tops</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Sweaters/Knits</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Jackets/Coats</a></li>
+                                <li class="mega-list">
+                                    <a href="#" class="mega-link">
+                                        <div class="supersale">
+                                            <span class="span_supersale">SUPER<br>SALE!</span>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="menu-list"><a class="menu-link" href="#">Man</a>
+                    <div class="mega-box">
+                        <div class="mega-item">
+                            <h3 class="item-heading">Women</h3>
+                            <ul>
+                                <li class="mega-list"><a href="#" class="mega-link">Dresses</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Tops</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Sweaters/Knits</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Jackets/Coats</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Blazers</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Denim</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Leggings/Pants</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Skirts/Shorts</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Accessories</a></li>
+                            </ul>
+                        </div>
+                        <div class="mega-item">
+                            <h3 class="item-heading">Women</h3>
+                            <ul>
+                                <li class="mega-list"><a href="#" class="mega-link">Dresses</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Tops</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Sweaters/Knits</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Jackets/Coats</a></li>
+                            </ul>
+                            <h3 class="item-heading block">Women</h3>
+                            <ul>
+                                <li class="mega-list"><a href="#" class="mega-link">Dresses</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Tops</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Sweaters/Knits</a></li>
+                            </ul>
+                        </div>
+                        <div class="mega-item">
+                            <h3 class="item-heading">Women</h3>
+                            <ul>
+                                <li class="mega-list"><a href="#" class="mega-link">Dresses</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Tops</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Sweaters/Knits</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Jackets/Coats</a></li>
+                                <li class="mega-list">
+                                    <a href="#" class="mega-link">
+                                        <div class="supersale">
+                                            <span class="span_supersale">SUPER<br>SALE!</span>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="menu-list"><a class="menu-link" href="#">Women</a>
+                    <div class="mega-box left">
+                        <div class="mega-item">
+                            <h3 class="item-heading">Women</h3>
+                            <ul>
+                                <li class="mega-list"><a href="#" class="mega-link">Dresses</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Tops</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Sweaters/Knits</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Jackets/Coats</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Blazers</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Denim</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Leggings/Pants</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Skirts/Shorts</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Accessories</a></li>
+                            </ul>
+                        </div>
+                        <div class="mega-item">
+                            <h3 class="item-heading">Women</h3>
+                            <ul>
+                                <li class="mega-list"><a href="#" class="mega-link">Dresses</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Tops</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Sweaters/Knits</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Jackets/Coats</a></li>
+                            </ul>
+                            <h3 class="item-heading block">Women</h3>
+                            <ul>
+                                <li class="mega-list"><a href="#" class="mega-link">Dresses</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Tops</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Sweaters/Knits</a></li>
+                            </ul>
+                        </div>
+                        <div class="mega-item">
+                            <h3 class="item-heading">Women</h3>
+                            <ul>
+                                <li class="mega-list"><a href="#" class="mega-link">Dresses</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Tops</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Sweaters/Knits</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Jackets/Coats</a></li>
+                                <li class="mega-list">
+                                    <a href="#" class="mega-link">
+                                        <div class="supersale">
+                                            <span class="span_supersale">SUPER<br>SALE!</span>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="menu-list"><a class="menu-link" href="#">Kids</a>
+                    <div class="mega-box left">
+                        <div class="mega-item">
+                            <h3 class="item-heading">Women</h3>
+                            <ul>
+                                <li class="mega-list"><a href="#" class="mega-link">Dresses</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Tops</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Sweaters/Knits</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Jackets/Coats</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Blazers</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Denim</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Leggings/Pants</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Skirts/Shorts</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Accessories</a></li>
+                            </ul>
+                        </div>
+                        <div class="mega-item">
+                            <h3 class="item-heading">Women</h3>
+                            <ul>
+                                <li class="mega-list"><a href="#" class="mega-link">Dresses</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Tops</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Sweaters/Knits</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Jackets/Coats</a></li>
+                            </ul>
+                            <h3 class="item-heading block">Women</h3>
+                            <ul>
+                                <li class="mega-list"><a href="#" class="mega-link">Dresses</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Tops</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Sweaters/Knits</a></li>
+                            </ul>
+                        </div>
+                        <div class="mega-item">
+                            <h3 class="item-heading">Women</h3>
+                            <ul>
+                                <li class="mega-list"><a href="#" class="mega-link">Dresses</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Tops</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Sweaters/Knits</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Jackets/Coats</a></li>
+                                <li class="mega-list">
+                                    <a href="#" class="mega-link">
+                                        <div class="supersale">
+                                            <span class="span_supersale">SUPER<br>SALE!</span>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="menu-list"><a class="menu-link" href="#">Accoseriese</a>
+                    <div class="mega-box left">
+                        <div class="mega-item">
+                            <h3 class="item-heading">Women</h3>
+                            <ul>
+                                <li class="mega-list"><a href="#" class="mega-link">Dresses</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Tops</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Sweaters/Knits</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Jackets/Coats</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Blazers</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Denim</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Leggings/Pants</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Skirts/Shorts</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Accessories</a></li>
+                            </ul>
+                        </div>
+                        <div class="mega-item">
+                            <h3 class="item-heading">Women</h3>
+                            <ul>
+                                <li class="mega-list"><a href="#" class="mega-link">Dresses</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Tops</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Sweaters/Knits</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Jackets/Coats</a></li>
+                            </ul>
+                            <h3 class="item-heading block">Women</h3>
+                            <ul>
+                                <li class="mega-list"><a href="#" class="mega-link">Dresses</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Tops</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Sweaters/Knits</a></li>
+                            </ul>
+                        </div>
+                        <div class="mega-item">
+                            <h3 class="item-heading">Women</h3>
+                            <ul>
+                                <li class="mega-list"><a href="#" class="mega-link">Dresses</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Tops</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Sweaters/Knits</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Jackets/Coats</a></li>
+                                <li class="mega-list">
+                                    <a href="#" class="mega-link">
+                                        <div class="supersale">
+                                            <span class="span_supersale">SUPER<br>SALE!</span>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="menu-list"><a class="menu-link" href="#">Featured</a>
+                    <div class="mega-box left">
+                        <div class="mega-item">
+                            <h3 class="item-heading">Women</h3>
+                            <ul>
+                                <li class="mega-list"><a href="#" class="mega-link">Dresses</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Tops</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Sweaters/Knits</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Jackets/Coats</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Blazers</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Denim</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Leggings/Pants</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Skirts/Shorts</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Accessories</a></li>
+                            </ul>
+                        </div>
+                        <div class="mega-item">
+                            <h3 class="item-heading">Women</h3>
+                            <ul>
+                                <li class="mega-list"><a href="#" class="mega-link">Dresses</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Tops</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Sweaters/Knits</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Jackets/Coats</a></li>
+                            </ul>
+                            <h3 class="item-heading block">Women</h3>
+                            <ul>
+                                <li class="mega-list"><a href="#" class="mega-link">Dresses</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Tops</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Sweaters/Knits</a></li>
+                            </ul>
+                        </div>
+                        <div class="mega-item">
+                            <h3 class="item-heading">Women</h3>
+                            <ul>
+                                <li class="mega-list"><a href="#" class="mega-link">Dresses</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Tops</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Sweaters/Knits</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Jackets/Coats</a></li>
+                                <li class="mega-list">
+                                    <a href="#" class="mega-link">
+                                        <div class="supersale">
+                                            <span class="span_supersale">SUPER<br>SALE!</span>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="menu-list"><a class="menu-link" href="#">Hot Deals</a>
+                    <div class="mega-box left">
+                        <div class="mega-item">
+                            <h3 class="item-heading">Women</h3>
+                            <ul>
+                                <li class="mega-list"><a href="#" class="mega-link">Dresses</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Tops</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Sweaters/Knits</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Jackets/Coats</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Blazers</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Denim</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Leggings/Pants</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Skirts/Shorts</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Accessories</a></li>
+                            </ul>
+                        </div>
+                        <div class="mega-item">
+                            <h3 class="item-heading">Women</h3>
+                            <ul>
+                                <li class="mega-list"><a href="#" class="mega-link">Dresses</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Tops</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Sweaters/Knits</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Jackets/Coats</a></li>
+                            </ul>
+                            <h3 class="item-heading block">Women</h3>
+                            <ul>
+                                <li class="mega-list"><a href="#" class="mega-link">Dresses</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Tops</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Sweaters/Knits</a></li>
+                            </ul>
+                        </div>
+                        <div class="mega-item">
+                            <h3 class="item-heading">Women</h3>
+                            <ul>
+                                <li class="mega-list"><a href="#" class="mega-link">Dresses</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Tops</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Sweaters/Knits</a></li>
+                                <li class="mega-list"><a href="#" class="mega-link">Jackets/Coats</a></li>
+                                <li class="mega-list">
+                                    <a href="#" class="mega-link">
+                                        <div class="supersale">
+                                            <span class="span_supersale">SUPER<br>SALE!</span>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="heading_breadcrums">
+        <div class="container nav__single_page">
+            <h1 class="product_name">New Arrivals</h1>
+            <nav class="breadcrums">
+                <ul class="breadcrums_list">
+                    <li><a href="index.html">Home /</a></li>
+                    <li><a href="single-page.html">Men /</a></li>
+                    <li><a href="single-page.html"><span>New Arrivals</span></a></li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+
+    <section class="information_block">
+        <div class="container">
+            <div class="hr"></div>
+            <div class="container-for-details-checkout"><details class="for-checkout">
+                <summary class="q_a"><span>01. Shipping Adress</span></summary>
+                <div class="faq">
+                    <div class="flex_contain">
+                        <form class="box__faq_desc">
+                            <h4 class="checkout_desc_h4">Check as a guest or register</h4>
+                            <p class="checkout_desc_p">Register with us for future convenience</p>
+                            <div class="block_radio">
+                                <input type="radio" id="guest" name="choise">
+                                <label class="checkout-round" for="guest"><span class="radio_checkout">checkout as guest</span></label><br>
+                                <div class="separator_label"></div>
+                                <input type="radio" id="register" checked name="choise">
+                                <label class="checkout-round" for="register"><span class="radio_checkout">register</span></label>
+                            </div>
+                            <h4 class="checkout_desc_h4">register and save time!</h4>
+                            <p class="checkout_desc_p">Register with us for future convenience</p>
+                            <div class="p_for_li">
+                                <p class="checkout_desc_p p_li">Fast and easy checkout</p>
+                                <p class="checkout_desc_p p_li">Easy access to your order history and status</p>
+                            </div>
+                            <button type="submit">continue</button>
+                        </form>
+                        <div class="box__faq_form">
+                            <form class="feedback">
+                                <h4 class="checkout_desc_h4">Already registed?</h4>
+                                <p class="checkout_desc_p">Please log in below</p>
+                                <span class="with_before">EMAIL ADDRESS</span>
+                                <input type="email" required>
+                                <span class="with_before">PASSWORD</span>
+                                <input type="password" required>
+                                <span class="required_span">* Required Fileds</span>
+                                <div class="autorized">
+                                    <button type="submit">Log in</button>
+                                    <a href="#" class="forgot">Forgot Password ?</a>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </details></div>
+            <div class="hr"></div>
+            <div class="container-for-details-checkout"><details class="for-checkout">
+                <summary class="q_a"><span>02. BILLING INFORMATION</span></summary>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, tenetur. Eum porro commodi,
+                    explicabo repudiandae velit temporibus consequuntur autem quidem aut nisi. Fuga, incidunt. Rerum in
+                    laboriosam sapiente deleniti sit quibusdam cupiditate vero perspiciatis ex, ipsam deserunt quisquam
+                    qui ipsa nihil dolore fugiat pariatur beatae. Atque labore obcaecati assumenda, sapiente doloremque
+                    optio, necessitatibus quam, repellendus at voluptate officiis saepe corporis deserunt alias unde
+                    totam repudiandae ab minima quo temporibus debitis delectus fugit sunt. Voluptatem sunt temporibus
+                    in adipisci commodi assumenda laborum illum voluptate? Est, dicta earum, totam expedita
+                    necessitatibus ratione minima, sed, aspernatur qui natus doloremque quidem quam unde fuga.</p>
+            </details></div>
+            <div class="hr"></div>
+            <div class="container-for-details-checkout"><details class="for-checkout">
+                <summary class="q_a"><span>03. SHIPPING INFORMATION</span></summary>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate illo eos, neque, vero eaque
+                    voluptatem corporis ex accusamus, illum, excepturi ut quaerat explicabo reprehenderit. Delectus
+                    nulla natus, culpa maxime voluptatum inventore ex soluta, sed cumque temporibus voluptate omnis
+                    repellat quae. Est aliquid, ad laboriosam nostrum quaerat iusto doloribus dicta veniam adipisci rem
+                    dolorum praesentium fuga laudantium facere, voluptates laborum! Corrupti nobis accusamus quisquam id
+                    aspernatur consectetur tempore, a ab molestias, debitis necessitatibus atque illo consequatur
+                    voluptatibus! Atque ut sunt labore ullam excepturi molestias odit velit maxime omnis fugiat
+                    voluptatem, reprehenderit assumenda odio consequatur dolorum non dolor cum eius nostrum. A.</p>
+            </details></div>
+            <div class="hr"></div>
+            <div class="container-for-details-checkout"><details class="for-checkout">
+                <summary class="q_a"><span>04. SHIPPING METHOD</span></summary>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita tenetur laudantium veritatis.
+                    Quasi ex sed id in. Nobis tempora ipsa sed nemo, vel fugiat, vero asperiores et quaerat voluptates,
+                    culpa nam esse ut magnam. Corrupti architecto atque nobis dolorem omnis corporis suscipit eius!
+                    Neque maiores blanditiis aspernatur aperiam hic alias placeat ab debitis ipsam doloribus magnam cum
+                    culpa labore sapiente, dicta unde minima, assumenda quis obcaecati. Voluptas itaque cumque alias
+                    commodi ipsam suscipit nihil rem sint debitis a beatae dignissimos similique voluptate qui pariatur
+                    obcaecati, officia delectus, quod eveniet modi labore, repellendus eligendi animi. Et autem fugiat
+                    ut beatae doloribus!</p>
+            </details></div>
+            <div class="hr"></div>
+            <div class="container-for-details-checkout"><details class="for-checkout">
+                <summary class="q_a"><span>05. PAYMENT METHOD</span></summary>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas quos doloremque eum ut, dolore
+                    natus ducimus ipsum earum dolores labore, vero, aut at, pariatur. Nam ad tempore placeat earum eius
+                    vero ab, dolore commodi magnam quae? Commodi aliquid eligendi, eum, velit doloribus eius
+                    necessitatibus, aliquam eos nulla, hic quisquam aut accusamus ipsa. Tempore porro voluptatem cum,
+                    maxime ipsa quam, explicabo quasi non praesentium ducimus hic inventore iure sequi ea dolore quos
+                    id! Cum provident, dolore nulla pariatur eligendi dolores, temporibus mollitia a eaque nisi nostrum,
+                    voluptatibus porro. Praesentium laudantium aliquid, deleniti voluptas officia sapiente repudiandae
+                    eveniet debitis. Suscipit, iure, dolore.</p>
+            </details></div>
+            <div class="hr"></div>
+            <div class="container-for-details-checkout"><details class="for-checkout">
+                <summary class="q_a"><span>06. ORDER REVIEW</span></summary>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, ratione eaque impedit sint. Eaque minus
+                    odit laudantium dolorum? Temporibus quas praesentium officiis aspernatur dignissimos sed deserunt
+                    dicta fugiat, iusto obcaecati illo, et id nulla rem omnis adipisci quos iure perspiciatis recusandae
+                    iste molestias eum totam. Vel sunt repellat aperiam cumque eaque qui beatae optio magnam ipsum,
+                    expedita soluta nihil doloribus a odit officiis at mollitia culpa id incidunt quo cupiditate
+                    ratione. Quis eos sint provident. Ducimus veniam cum dolor explicabo et molestiae, necessitatibus
+                    consectetur molestias quis consequuntur temporibus laudantium minima maiores beatae magnam atque
+                    odio tenetur assumenda architecto dolore soluta.</p>
+            </details></div>
+            <div class="hr"></div></div>
+    </section>
+
+    <section class="subcribe">
+        <div class="container subcribes">
+            <div class="review">
+                <figure class="review_slider">
+                    <img class="icon_review" src="img/icon_review.png" alt="icon review">
+                    <div class="meta_review">
+                        <p class="text_review">“Vestibulum quis porttitor dui! Quisque viverra nunc mi,
+                            a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”</p>
+                        <p class="full_name">Bin Burhan
+                            <span>Dhaka, Bd</span>
+                        </p>
+                        <div class="switch_slider">
+                            <!--Пока не рабочий переключатель, времени мало на домашку осталось-->
+                            <div class="review1"></div>
+                            <div class="review2"></div>
+                            <div class="review3"></div>
+                        </div>
+                    </div>
+                </figure>
+            </div>
+            <div class="border"></div>
+            <div class="contacts_subcribe">
+                <h3 class="subcribe_heading"><span>Subscribe</span><br>FOR OUR NEWLETTER AND PROMOTION</h3>
+                <form action="#" class="subribe_form">
+                    <input type="text" class="email_subcribe" placeholder="Enter Your Email">
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer">
+            <div class="brand_desc">
+                <a href="index.html" class="logo footer">
+                    <img src="img/logo.png" alt="logo">
+                    <span>BRAN<span class="D">D</span></span>
+                </a>
+                <p>Objectively transition extensive data rather than cross functional solutions. Monotonectally
+                    syndicate multidisciplinary materials before go forward benefits. Intrinsicly syndicate an expanded
+                    array of processes and cross-unit partnerships.<br><br>Efficiently plagiarize 24/365 action items
+                    and focused infomediaries. Distinctively seize
+                    superior initiatives for wireless technologies. Dynamically optimize.</p>
+            </div>
+            <div class="nav_link_footer">
+                <div class="column1">
+                    <h4>COMPANY</h4>
+                    <a href="#" class="nlf1">Home</a>
+                    <a href="#" class="nlf2">Shop</a>
+                    <a href="#" class="nlf3">About</a>
+                    <a href="#" class="nlf4">How It Works</a>
+                    <a href="#" class="nlf5">Contact</a>
+                </div>
+                <div class="column2">
+                    <h4>INFORMATION</h4>
+                    <a href="#" class="nlf1">Tearms & Condition</a>
+                    <a href="#" class="nlf2">Privacy Policy</a>
+                    <a href="#" class="nlf3">How to Buy</a>
+                    <a href="#" class="nlf4">How to Sell</a>
+                    <a href="#" class="nlf5">Promotion</a>
+                </div>
+                <div class="column3">
+                    <h4>SHOP CATEGORY</h4>
+                    <a href="#" class="nlf1">Men</a>
+                    <a href="#" class="nlf2">Women</a>
+                    <a href="#" class="nlf3">Child</a>
+                    <a href="#" class="nlf4">Apparel</a>
+                    <a href="#" class="nlf5">Brows All</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <footer class="end">
+        <div class="container footer2">
+            <div>
+                <p>© 2017 Brand All Rights Reserved.</p>
+            </div>
+            <nav class="soc">
+                <a href="https://ru-ru.facebook.com/" target="_blank">
+                    <div class="soc_n1"><i class="fab fa-facebook-f"></i></div>
+                </a>
+                <a href="https://twitter.com/" target="_blank">
+                    <div class="soc_n2"><i class="fab fa-twitter"></i></div>
+                </a>
+                <a href="https://www.linkedin.cn/login" target="_blank">
+                    <div class="soc_n3"><i class="fab fa-linkedin-in"></i></div>
+                </a>
+                <a href="https://www.pinterest.ru/" target="_blank">
+                    <div class="soc_n4"><i class="fab fa-pinterest-p"></i></div>
+                </a>
+                <a href="http://plus.google.com/" target="_blank">
+                    <div class="soc_n5"><i class="fab fa-google-plus-g"></i></div>
+                </a>
+            </nav>
+        </div>
+    </footer>
+
+</body>
+
+</html>

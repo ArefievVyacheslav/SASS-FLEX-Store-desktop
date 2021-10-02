@@ -1,0 +1,293 @@
+.item-cart
+  padding-top: 70px
+  padding-bottom: 80px
+
+.product-details
+  display: flex
+  &__first-column, &__second-column
+    align-items: center
+
+.second-column
+  display: flex
+  justify-content: space-between
+  width: $width-container - $width-second-column
+  &_around
+    justify-content: space-around
+.second-column_around__cell-cart
+  color: #c0c0c0
+  font-family: Lato Regular
+  font-size: 13px
+  font-weight: 400
+  font-style: normal
+  letter-spacing: normal
+  line-height: normal
+  text-transform: uppercase
+  text-align: center
+  & i:hover
+    color: #f16d7f
+
+
+  .second-column__coint_product
+    margin-top: 0
+    width: 30px
+    padding-left: 20px
+
+.first-column
+  display: flex
+  height: 53px
+  width: 490px
+  &__product_desc
+    margin-left: -16px
+  & img
+    width: 100px
+    height: 115px
+
+
+
+.string-purchase
+  display: flex
+  border-top: 1px solid #eaeaea
+  border-bottom: 1px solid #eaeaea
+  height: 110px
+  padding-top: 22px
+  padding-bottom: 25px
+  & a
+    text-decoration: none
+    color: #3d3d3d
+  &__first-column
+    margin-left: 0
+
+.subtleties-box
+  display: flex
+  flex-direction: column
+
+.subtleties-box__product-desc
+  margin-top: -6px
+  margin-left: 6px
+
+.subtleties
+  padding-left: 22px
+  color: #6f6e6e
+  font-family: Lato Regular
+  font-size: 13px
+  font-weight: 300
+  font-style: normal
+  letter-spacing: normal
+  line-height: 20px
+  &:nth-child(2)
+    margin-top: 15px
+  & span
+    font-family: Lato Light
+    font-weight: 300
+    font-style: normal
+    letter-spacing: normal
+    line-height: normal
+
+.cell-cart
+  display: flex
+  align-self: center
+
+.buttons-block
+  display: flex
+  justify-content: space-between
+  margin-top: 44px
+  margin-bottom: 60px
+  & a
+    display: block
+    text-decoration: none
+    border: 1px solid #eaeaea
+    background-color: #ffffff
+    color: #4a4a4a
+    font-family: Lato
+    font-size: 14px
+    font-weight: 700
+    font-style: normal
+    letter-spacing: normal
+    line-height: normal
+    text-transform: uppercase
+    padding: 20px 40px
+    &:hover
+      color: #ffffff
+      background-color: #f16d7f
+      border-color: 1px solid #transparent
+
+.total-down-block
+  display: flex
+  justify-content: space-between
+
+.h4-shopping-cart
+  color: #222222
+  font-family: Lato
+  font-size: 16px
+  font-weight: 700
+  font-style: normal
+  letter-spacing: normal
+  line-height: normal
+  text-align: left
+  text-transform: uppercase
+  &_last
+    color: #f16d7f
+
+.shopping-cart-from
+  width: 338px
+  height: 45px
+  border: 1px solid #eaeaea
+  background-color: #ffffff
+  outline: none
+  padding-left: 17px
+  color: #b1b1b1
+  font-family: Lato Light
+  font-size: 13px
+  font-weight: 300
+  font-style: normal
+  letter-spacing: normal
+  line-height: normal
+  margin-top: 20px
+  &::placeholder
+    color: #b1b1b1
+    font-family: Lato Light
+    font-size: 13px
+    font-weight: 300
+    font-style: normal
+    letter-spacing: normal
+    line-height: normal
+
+.mega-item_shopcart div
+  width: 338px
+  height: 30px
+  border-top: 1px solid #eaeaea
+  background-color: #ffffff
+  outline: none
+  padding-left: 17px
+  color: #b1b1b1
+  font-family: Lato Light
+  font-size: 13px
+  font-weight: 300
+  font-style: normal
+  letter-spacing: normal
+  line-height: normal
+  padding-top: 16px
+  border-right: 1px solid #eaeaea
+
+
+.mega-item_shopcart:first-child div
+  border-top: 0 !important
+
+.mega-item_shopcart:last-child div
+  border-bottom: 1px solid #eaeaea !important
+
+.browse_choise_brnone
+  border-right: none !important
+  height: 47px !important
+
+.browse_choise_shopping-cart
+  width: 338px
+  height: 43px
+  border: 1px solid #eaeaea
+  color: #b1b1b1 !important
+  padding-left: 17px
+  font-family: Lato Light !important
+  font-size: 13px !important
+  font-weight: 300
+  font-style: normal
+  letter-spacing: normal
+  line-height: normal
+  margin-top: 20px
+  text-align: left
+  padding-top: 2px
+  margin-bottom: 0 !important
+  &::after
+    content: ""
+    display: inline-block
+    background-image: url(img/down_arrow.png)
+    background-repeat: no-repeat
+    width: 9px
+    height: 6px
+    margin-left: 250px !important
+    padding-top: 2px
+    opacity: 50%
+
+.coupon p
+  color: #000000
+  font-family: Lato Light
+  font-size: 14px
+  font-weight: 300
+  font-style: normal
+  letter-spacing: normal
+  line-height: normal
+  margin-top: 28px
+
+.mega-box_shopping_cart
+  border-radius: 0 !important
+  left: 45px !important
+  width: 332px
+  padding: 0 !important
+  border-bottom: 0 !important
+  &::before
+    content: none !important
+
+.button-cart-from
+  display: block
+  margin-top: 25px
+  color: #4a4a4a
+  font-family: Lato
+  font-size: 11px
+  font-weight: 700
+  font-style: normal
+  letter-spacing: normal
+  line-height: normal
+  text-transform: uppercase
+  padding: 12px 15px
+  text-decoration: none
+  outline: none
+  border: 1px solid #eaeaea
+  background-color: #ffffff
+  &:hover
+    background-color: #f16d7f
+    color: #FFFFFF
+
+.total-count-cart
+  width: 360px
+  height: 232px
+  background-color: #f5f3f3
+  .total-price-block
+    width: 275px
+    margin: 40px 44px 42px 41px
+
+.sub-total
+  display: flex
+  justify-content: flex-end
+  color: #4a4a4a
+  font-family: Lato
+  font-size: 11px
+  font-weight: 400
+  font-style: normal
+  letter-spacing: normal
+  line-height: normal
+  text-transform: uppercase
+
+.grand-total
+  display: flex
+  justify-content: flex-end
+  margin-top: 14px
+  margin-bottom: 22px
+
+.txt-price
+  margin-right: 15px
+
+.proceed
+  margin-top: 22px
+  color: #ffffff
+  font-family: Lato
+  font-size: 16px
+  font-weight: 700
+  font-style: normal
+  letter-spacing: normal
+  line-height: normal
+  text-transform: uppercase
+  text-decoration: none
+  outline: none
+  display: block
+  background-color: #f16d7f
+  text-align: center
+  padding: 19px 0
